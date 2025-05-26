@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>تطبيق مهامي</title>
+    <script src="app.js" defer></script>
 </head>
 <body>
     <div>
         <h1>ادارة المهام</h1>
+        <input type="text" id="taskInput" placeholder="أدخل مهمة جديدة">
+        <button onclick="addTask()" id="addTask">إضافة مهمة</button>
+        <ul id="taskList"></ul>
     </div>
 </body>
 </html>
